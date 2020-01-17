@@ -1,22 +1,46 @@
 body
-{
-background-color:green;
-}
+{background-color:green;}
 
-
-b{
+h3{
+display:grid;
+width:inherit;
 }
+/*container voor de drie layout*/
 #wrapper
 {
 display:grid;
 grid-template-columns: repeat(3, 1fr);
-/* grid-template-rows: repeat(5,1fr); */
 grid-gap: 1em;
 }
 
+
 /*img binnen container*/
-#wrapper img
+
+#grid1
 {
-max-width: 100%;
+  color:rgb(255,0,0);
+  text-align:right;
+  font-size:3em;
 }
-/*
+
+#grid2
+{
+  color:rgb(255,2,2);
+}
+
+#grid3{
+grid-row:2/4;
+}
+
+#grid5{
+width:960px;
+}
+
+#grid7{
+width:960px;
+}
+
+#grid10{
+grid-column:3/4;
+grid-row:4/6;
+}
