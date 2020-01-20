@@ -12,6 +12,10 @@ display:grid;
 grid-template-columns: repeat(3, 1fr);
 grid-gap: 1em;
 }
+img{
+  max-width: 100%;
+}
+
 
 
 /*img binnen container*/
